@@ -13,6 +13,7 @@
 		1815216C2379D05C00643BEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1815216B2379D05C00643BEB /* Assets.xcassets */; };
 		1815216F2379D05C00643BEB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1815216E2379D05C00643BEB /* Preview Assets.xcassets */; };
 		181521722379D05C00643BEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181521702379D05C00643BEB /* LaunchScreen.storyboard */; };
+		1815217A237AC86700643BEB /* PlaylistTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18152179237AC86700643BEB /* PlaylistTitle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		1815216E2379D05C00643BEB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		181521712379D05C00643BEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		181521732379D05C00643BEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18152179237AC86700643BEB /* PlaylistTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistTitle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				181521652379D05900643BEB /* AppDelegate.swift */,
 				181521672379D05900643BEB /* SceneDelegate.swift */,
 				181521692379D05900643BEB /* ContentView.swift */,
+				18152179237AC86700643BEB /* PlaylistTitle.swift */,
 				1815216B2379D05C00643BEB /* Assets.xcassets */,
 				181521702379D05C00643BEB /* LaunchScreen.storyboard */,
 				181521732379D05C00643BEB /* Info.plist */,
@@ -148,6 +151,7 @@
 			files = (
 				181521662379D05900643BEB /* AppDelegate.swift in Sources */,
 				181521682379D05900643BEB /* SceneDelegate.swift in Sources */,
+				1815217A237AC86700643BEB /* PlaylistTitle.swift in Sources */,
 				1815216A2379D05900643BEB /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
