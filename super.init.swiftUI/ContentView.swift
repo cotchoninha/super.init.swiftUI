@@ -9,20 +9,17 @@
 import SwiftUI
 
 struct ContentView : View {
-    var list = ["A", "B", "C"]
     var body: some View {
-        NavigationView {
-            List(list, id: \.self) { item in
-                HStack {
-                    Image(systemName: "circle")
-											.foregroundColor(.blue)
-                    Text(item)
-											.foregroundColor(.red)
-											.font(.largeTitle)
-                    Spacer()
-                }
-            }
-						.navigationBarTitle(Text("Sample List"))
+        VStack {
+            Spacer()
+            PlaylistTitle()
+            Spacer()
+            Image("babyShark").resizable().frame(width: 300, height: 300)
+            Spacer()
+            SongAndFavoriteView()
+            TimeAndProgressView()
+            ControlButtonsView()
+            Spacer()
         }
     }
 }
