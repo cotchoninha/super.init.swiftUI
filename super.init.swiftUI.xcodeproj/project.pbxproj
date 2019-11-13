@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		055EACEA237AF28200EBC67A /* ProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055EACE9237AF28100EBC67A /* ProgressBarView.swift */; };
+		055EACEC237AF46800EBC67A /* TimeAndProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055EACEB237AF46800EBC67A /* TimeAndProgressView.swift */; };
+		055EACEE237AF4A200EBC67A /* SongTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055EACED237AF4A200EBC67A /* SongTimeView.swift */; };
+		055EACF0237AF82E00EBC67A /* ControlButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055EACEF237AF82E00EBC67A /* ControlButtonsView.swift */; };
 		181521662379D05900643BEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181521652379D05900643BEB /* AppDelegate.swift */; };
 		181521682379D05900643BEB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181521672379D05900643BEB /* SceneDelegate.swift */; };
 		1815216A2379D05900643BEB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181521692379D05900643BEB /* ContentView.swift */; };
@@ -19,6 +23,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		055EACE9237AF28100EBC67A /* ProgressBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarView.swift; sourceTree = "<group>"; };
+		055EACEB237AF46800EBC67A /* TimeAndProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeAndProgressView.swift; sourceTree = "<group>"; };
+		055EACED237AF4A200EBC67A /* SongTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongTimeView.swift; sourceTree = "<group>"; };
+		055EACEF237AF82E00EBC67A /* ControlButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlButtonsView.swift; sourceTree = "<group>"; };
 		181521622379D05900643BEB /* super.init.swiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = super.init.swiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		181521652379D05900643BEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		181521672379D05900643BEB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -68,6 +76,10 @@
 				18152179237AC86700643BEB /* PlaylistTitle.swift */,
 				1815217C237AEF0500643BEB /* ArtistSongView.swift */,
 				1815217E237AEF9C00643BEB /* SongAndFavoriteView.swift */,
+				055EACE9237AF28100EBC67A /* ProgressBarView.swift */,
+				055EACEB237AF46800EBC67A /* TimeAndProgressView.swift */,
+				055EACED237AF4A200EBC67A /* SongTimeView.swift */,
+				055EACEF237AF82E00EBC67A /* ControlButtonsView.swift */,
 				1815216B2379D05C00643BEB /* Assets.xcassets */,
 				181521702379D05C00643BEB /* LaunchScreen.storyboard */,
 				181521732379D05C00643BEB /* Info.plist */,
@@ -161,6 +173,10 @@
 				1815217A237AC86700643BEB /* PlaylistTitle.swift in Sources */,
 				1815216A2379D05900643BEB /* ContentView.swift in Sources */,
 				1815217F237AEF9C00643BEB /* SongAndFavoriteView.swift in Sources */,
+				055EACF0237AF82E00EBC67A /* ControlButtonsView.swift in Sources */,
+				055EACEC237AF46800EBC67A /* TimeAndProgressView.swift in Sources */,
+				055EACEE237AF4A200EBC67A /* SongTimeView.swift in Sources */,
+				055EACEA237AF28200EBC67A /* ProgressBarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
