@@ -12,7 +12,9 @@ struct PlaylistTitle: View {
     var body: some View {
 			HStack {
 				Image("treedots")
-				Text("Samba de Gafieira")
+                Spacer()
+				Text("Baby Shark")
+                Spacer()
 				Image("dropdown")
 			}
     }

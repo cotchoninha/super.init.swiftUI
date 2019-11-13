@@ -36,9 +36,9 @@ struct ControlButtonsView: View {
                 self.isPaused.toggle()
             }) {
                 if isPaused {
-                    Image("pause").resizable().frame(width: 30, height: 30)
+                    Image("pause").resizable().frame(width: 40, height: 40)
                 } else {
-                    Image("play").resizable().frame(width: 30, height: 30)
+                    Image("play").resizable().frame(width: 40, height: 40)
                 }
                     
             }

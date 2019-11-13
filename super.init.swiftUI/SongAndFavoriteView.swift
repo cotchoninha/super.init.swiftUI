@@ -9,11 +9,20 @@
 import SwiftUI
 
 struct SongAndFavoriteView: View {
+    @State var isFavourite = false
     var body: some View {
 			HStack {
         ArtistSongView()
 				Spacer()
-				Image("favourite")
+                Button(action: {
+                    self.isFavourite.toggle()
+                }) {
+                    if isFavourite {
+                        Image("favouriteOn").resizable().frame(width: 30, height: 30)
+                    } else {
+                        Image("favourite").resizable().frame(width: 30, height: 30)
+                    }
+                }
 			}
     }
 }
