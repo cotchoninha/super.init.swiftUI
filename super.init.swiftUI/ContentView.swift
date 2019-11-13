@@ -16,12 +16,11 @@ struct ContentView : View {
             Spacer()
             Image("babyShark").resizable().frame(width: 300, height: 300)
             Spacer()
-            SongAndFavoriteView()
-            TimeAndProgressView()
-            ControlButtonsView()
+           SongAndProgressView()
             Spacer()
-        }
-    .padding()
+            PlaylistAndPairView()
+            Spacer()
+        }.padding(EdgeInsets(top: -50, leading: 20, bottom: -30, trailing: 20))
     }
 }
 
