@@ -11,8 +11,8 @@ import SwiftUI
 struct ArtistSongView: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 4) {
-				Text("Carol ou Clarisse")
-            Text("Beneditos, Mart'nália")
+				Text("Baby Shark")
+            Text("Pinkfong")
                 .font(.footnote)
 			}
     }
